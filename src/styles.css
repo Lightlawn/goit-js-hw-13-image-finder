@@ -13,7 +13,7 @@ form {
   margin: 100px auto;
 }
 input,
-button[type='submit'] {
+.search-button {
   border: none;
   outline: none;
   border-radius: 3px;
@@ -24,7 +24,7 @@ input {
   background: #f9f0da;
   padding-left: 15px;
 }
-button[type='submit'] {
+.search-button {
   height: 26px;
   width: 26px;
   position: absolute;
@@ -33,7 +33,7 @@ button[type='submit'] {
   background: #f15b42;
   cursor: pointer;
 }
-button[type='submit']:before {
+.search-button:before {
   content: 'search';
   font-family: Material Icons;
   color: #f9f0da;
